@@ -3,37 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casas Prefabricadas - Tu Casa Ideal</title>
+    <title>EMPreppers - Casas prefabricadas para situaciones de emergencia</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Casas Prefabricadas</h1>
-        <p>Tu casa ideal, construida en menos tiempo</p>
+        <h1>EMPreppers</h1>
+        <p>Tu seguridad en situaciones de emergencia</p>
+        <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Casas</a></li>
+            <li><a href="#">Información</a></li>
+            <li><a href="#">Recursos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
     </header>
     <main>
         <section class="banner">
-            <img src="images/banner.jpg" alt="Casa prefabricada moderna">
-            <h2>Construye tu futuro hoy mismo</h2>
+            <img src="images/banner.jpg" alt="Casa prefabricada EMPreppers">
+            <h2>Prepárate para lo inesperado</h2>
+            <p>Las casas prefabricadas EMPreppers te brindan la seguridad y el confort que necesitas en situaciones de emergencia.</p>
+            <button class="boton">Solicita información</button>
         </section>
         <section class="catalogo">
             <h2>Modelos de casas prefabricadas</h2>
-            <ul>
+            <ul class="filtros">
+                <li><a href="#">Tipo de emergencia</a></li>
+                <li><a href="#">Tamaño</a></li>
+                <li><a href="#">Precio</a></li>
+                <li><a href="#">Más características</a></li>
+            </ul>
+            <ul class="casas">
                 <li>
                     <a href="#">
                         <img src="images/modelo1.jpg" alt="Modelo 1">
                         <h3>Modelo 1</h3>
-                        <p>Casa familiar de 3 dormitorios y 2 baños.</p>
+                        <p>Casa familiar para 4 personas, ideal para tormentas y huracanes.</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <img src="images/modelo2.jpg" alt="Modelo 2">
                         <h3>Modelo 2</h3>
-                        <p>Casa de campo de 2 dormitorios y 1 baño.</p>
+                        <p>Casa de campo para 2 personas, perfecta para terremotos e inundaciones.</p>
                     </a>
                 </li>
                 </ul>
+        </section>
+        <section class="informacion">
+            <h2>¿Qué es EMP?</h2>
+            <p>EMP (Electromagnetic Pulse) es una onda electromagnética de alta intensidad que puede dañar equipos electrónicos y redes eléctricas.</p>
+            <h2>¿Por qué elegir una casa EMPreppers?</h2>
+            <ul>
+                <li>Diseñadas para resistir impactos EMP.</li>
+                <li>Autónomas en energía y agua.</li>
+                <li>Fáciles de instalar y transportar.</li>
+                <li>Confortables y seguras.</li>
+            </ul>
+            <h2>Guía de preparación para emergencias</h2>
+            <p>Descarga nuestra guía gratuita con consejos prácticos para estar preparado ante cualquier eventualidad.</p>
+            <button class="boton">Descargar guía</button>
+        </section>
+        <section class="recursos">
+            <h2>Blog</h2>
+            <ul class="articulos">
+                <li><a href="#">Cómo prepararse para un EMP</a></li>
+                <li><a href="#">Qué suministros necesitas en una emergencia</a></li>
+                <li><a href="#">Primeros auxilios en situaciones de supervivencia</a></li>
+            </ul>
+            <h2>Preguntas frecuentes</h2>
+            <ul class="preguntas">
+                <li><a href="#">¿Qué es una casa prefabricada?</a></li>
+                <li><a href="#">¿Cuánto cuesta una casa EMPreppers?</a></li>
+                <li><a href="#">¿Cuánto tiempo se tarda en instalar una casa prefabricada?</a></li>
+            </ul>
         </section>
         <section class="contacto">
             <h2>Contacta con nosotros</h2>
@@ -42,12 +85,4 @@
                 <input type="email" name="email" placeholder="Correo electrónico">
                 <input type="text" name="telefono" placeholder="Teléfono">
                 <textarea name="mensaje" placeholder="Mensaje"></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>Copyright &copy; 2023 - Tu Casa Ideal</p>
-    </footer>
-</body>
-</html>
+                <button
